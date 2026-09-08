@@ -1,0 +1,67 @@
+今天正式开始。Day 1 不追求学很多语法，而是建立最基本的 Python 编程手感：变量 → 数据类型 → 输入 → 计算 → 输出。
+你有 C 语言基础，所以今天会跳过一些过度基础的内容，但暂时不要碰 pandas、Excel 库，先确保基础代码能独立写出来。
+建议今天投入 60～90 分钟。最重要的一条：下面要求你写的代码，请自己敲，不要复制，也先不要让 AI 生成答案。
+
+第一阶段：知识学习｜约 20 分钟
+
+今天掌握 5 个东西：
+变量
+基本数据类型
+input()
+类型转换
+print()。
+Python 定义变量不需要像 C 一样声明类型：
+
+company = "公司"
+income = 12500.50
+expense = 8300
+is_checked = False
+
+这里分别涉及：
+
+str     字符串
+float   小数
+int     整数
+bool    布尔值
+
+重点理解：变量不是单纯背语法，而是程序保存业务数据的地方。
+
+接下来是输入。
+
+name = input("请输入科目名称：")
+print(name)
+
+这里有一个 Day 1 非常重要的坑：
+
+input() 得到的数据默认都是字符串。
+
+例如：
+
+amount = input("请输入金额：")
+print(type(amount))
+
+即使输入：
+1000
+它仍然是：
+str
+如果需要计算，就要转换：
+amount = float(input("请输入金额："))
+例如：
+income = float(input("请输入收入："))
+expense = float(input("请输入支出："))
+profit = income - expense
+print("利润：", profit)
+今天你至少要真正理解这条数据流：
+用户输入
+  ↓
+input()
+  ↓
+字符串
+  ↓
+int() / float()
+  ↓
+变量
+  ↓
+计算
+  ↓
+print()

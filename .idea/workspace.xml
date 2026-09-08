@@ -1,29 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="" />
+    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Day1/First/day1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/First/知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Second/day01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Second/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Third/1.员工工资计算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Third/2.简单财务数据分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/Third/3.业务小需求.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3IzjxpUxO2tcJe6r5qOJ5Kyic9f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.2.简单财务数据分析.executor": "Run",
+    "Python.3.业务小需求.executor": "Run",
+    "Python.day01.executor": "Run",
+    "Python.day1.executor": "Run",
+    "Python.员工工资计算.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,8 +76,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788774540771</updated>
-      <workItem from="1788774542051" duration="12000" />
+      <workItem from="1788774542051" duration="732000" />
+      <workItem from="1788780386470" duration="4260000" />
+      <workItem from="1788850400814" duration="6055000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Day90_py$2_.coverage" NAME="2.简单财务数据分析 覆盖结果" MODIFIED="1788856838567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
+    <SUITE FILE_PATH="coverage/Day90_py$day01.coverage" NAME="day01 覆盖结果" MODIFIED="1788854295632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Second" />
+    <SUITE FILE_PATH="coverage/Day90_py$day1.coverage" NAME="day1 覆盖结果" MODIFIED="1788853167096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/First" />
+    <SUITE FILE_PATH="coverage/Day90_py$3_.coverage" NAME="3.业务小需求 覆盖结果" MODIFIED="1788857223957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
+    <SUITE FILE_PATH="coverage/Day90_py$.coverage" NAME="员工工资计算 覆盖结果" MODIFIED="1788856403665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
   </component>
 </project>
