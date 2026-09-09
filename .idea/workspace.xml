@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Day1/First/day1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/First/知识点" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/Second/day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/Second/说明" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/Third/1.员工工资计算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/Third/2.简单财务数据分析.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/Third/3.业务小需求.py" afterDir="false" />
+    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="Day1">
+      <change afterPath="$PROJECT_DIR$/Day1/Third/day01_finance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Third/4.Debug 小实验.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Third/4.Debug 小实验.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,9 @@
   "keyToString": {
     "Python.2.简单财务数据分析.executor": "Run",
     "Python.3.业务小需求.executor": "Run",
+    "Python.4.Debug 小实验.executor": "Run",
     "Python.day01.executor": "Run",
+    "Python.day01_finance.executor": "Run",
     "Python.day1.executor": "Run",
     "Python.员工工资计算.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -78,17 +75,33 @@
       <updated>1788774540771</updated>
       <workItem from="1788774542051" duration="732000" />
       <workItem from="1788780386470" duration="4260000" />
-      <workItem from="1788850400814" duration="6055000" />
+      <workItem from="1788850400814" duration="10386000" />
+      <workItem from="1788915248299" duration="10796000" />
     </task>
+    <task id="LOCAL-00001" summary="Day1">
+      <option name="closed" value="true" />
+      <created>1788857672225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788857672225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day1" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day90_py$2_.coverage" NAME="2.简单财务数据分析 覆盖结果" MODIFIED="1788856838567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$day01.coverage" NAME="day01 覆盖结果" MODIFIED="1788854295632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Second" />
     <SUITE FILE_PATH="coverage/Day90_py$day1.coverage" NAME="day1 覆盖结果" MODIFIED="1788853167096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/First" />
+    <SUITE FILE_PATH="coverage/Day90_py$4_Debug_.coverage" NAME="4.Debug 小实验 覆盖结果" MODIFIED="1788857383347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
+    <SUITE FILE_PATH="coverage/Day90_py$day01_finance.coverage" NAME="day01_finance 覆盖结果" MODIFIED="1788935697814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$3_.coverage" NAME="3.业务小需求 覆盖结果" MODIFIED="1788857223957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$.coverage" NAME="员工工资计算 覆盖结果" MODIFIED="1788856403665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
   </component>
