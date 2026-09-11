@@ -1,0 +1,52 @@
+Python 最基本的判断：
+
+profit = 5000
+
+if profit > 0:
+    print("盈利")
+elif profit == 0:
+    print("收支持平")
+else:
+    print("亏损")
+
+这里要理解四件事：
+
+>   大于
+<   小于
+>=  大于等于
+<=  小于等于
+==  是否相等
+!=  是否不相等
+
+特别注意：
+
+profit = 1000
+
+是赋值。
+
+profit == 1000
+
+是比较是否相等。
+
+然后掌握逻辑运算：
+
+and
+or
+not
+
+例如：
+
+income = 50000
+expense = 30000
+
+if income > 0 and expense > 0:
+    print("存在有效经营数据")
+
+今天不用研究复杂嵌套条件，先把单层业务判断写稳。
+
+还有一个 Python 和 C 很明显的区别：缩进属于语法的一部分。
+
+if profit > 0:
+    print("盈利")
+
+通常使用 4 个空格。
