@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="Day2">
+    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="改正day2 3_financial_risk.py 的错误">
+      <change afterPath="$PROJECT_DIR$/Day2/test_3_financial_risk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/3_financial_risk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/financial_risk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python 测试 (test_3_financial_risk.py 内).executor": "Run",
     "Python.2.简单财务数据分析.executor": "Run",
     "Python.2_balance_check.executor": "Run",
     "Python.3.业务小需求.executor": "Run",
@@ -82,7 +85,7 @@
       <workItem from="1788915248299" duration="13643000" />
       <workItem from="1789009694061" duration="12288000" />
       <workItem from="1789106052569" duration="1047000" />
-      <workItem from="1789107134747" duration="5666000" />
+      <workItem from="1789107134747" duration="8238000" />
     </task>
     <task id="LOCAL-00001" summary="Day1">
       <option name="closed" value="true" />
@@ -116,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789112513574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="改正day2 3_financial_risk.py 的错误">
+      <option name="closed" value="true" />
+      <created>1789113428171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789113428171</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,12 +137,13 @@
     <MESSAGE value="Day1" />
     <MESSAGE value="Day1 added" />
     <MESSAGE value="Day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day2" />
+    <MESSAGE value="改正day2 3_financial_risk.py 的错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="改正day2 3_financial_risk.py 的错误" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day90_py$2_.coverage" NAME="2.简单财务数据分析 覆盖结果" MODIFIED="1788856838567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
-    <SUITE FILE_PATH="coverage/Day90_py$.coverage" NAME="员工工资计算 覆盖结果" MODIFIED="1788856403665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$profit_analysis.coverage" NAME="profit_analysis 覆盖结果" MODIFIED="1789108062164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
+    <SUITE FILE_PATH="coverage/Day90_py$.coverage" NAME=" 覆盖结果" MODIFIED="1789115619010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Day90_py$day01.coverage" NAME="day01 覆盖结果" MODIFIED="1789107101530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Second" />
     <SUITE FILE_PATH="coverage/Day90_py$3_.coverage" NAME="3.业务小需求 覆盖结果" MODIFIED="1788857223957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$4_Debug_.coverage" NAME="4_Debug 训练 覆盖结果" MODIFIED="1789111912845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
