@@ -1,0 +1,13 @@
+Day 2
+
+1. = 和 == 有什么区别？
+'='是赋值语句，‘==’才是等于
+2. if / elif / else 是否会全部执行？
+不会，有满足条件的就执行满足条件的
+3. and 在什么情况下结果为 True？
+and两边的条件都满足的时候
+4. 今天哪一个条件判断是我最容易写错的？
+无，不过有个习惯性错误，比如当需要输入公司名称的时候，我下意识想到"print("Please enter your company_name")"下面还有加一个 company_name = input() 就显得很多余，于是又改回了 company_name = input("Please enter your company_name")
+还有一个错误就是，写太快，比如income这个偶尔忘记转换类型了。
+5. 如果不给示例，我能不能自己把一条中文业务规则翻译成 if 条件？
+能啊，so easy

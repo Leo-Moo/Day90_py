@@ -29,17 +29,17 @@
 # print("期末余额：",QWYE)
 
 
-# KmName = input("请输入科目名称：")
-# qcye = float(input("请输入期初余额："))
-# BQJF = float(input("请输入本期借方："))
-# BQDF = float(input("请输入本期贷方："))
-# QWYE = qcye + BQJF - BQDF
-#
-# print(f"科目名称：{KmName:}")
-# print(f"期初余额：{qcye:.2f}")
-# print(f"本期借方：{BQJF:.2f}")
-# print(f"本期贷方：{BQDF:.2f}")
-# print(f"期末余额：{QWYE:.2f}")
+KmName = input("请输入科目名称：")
+qcye = float(input("请输入期初余额："))
+BQJF = float(input("请输入本期借方："))
+BQDF = float(input("请输入本期贷方："))
+QWYE = qcye + BQJF - BQDF
+
+print(f"科目名称：{KmName:}")
+print(f"期初余额：{qcye:.2f}")
+print(f"本期借方：{BQJF:.2f}")
+print(f"本期贷方：{BQDF:.2f}")
+print(f"期末余额：{QWYE:.2f}")
 
 opening_balance = input("请输入期初余额：")
 income = input("请输入本期收入：")
