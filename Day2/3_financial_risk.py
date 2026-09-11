@@ -38,9 +38,9 @@
 from Day1.Second.day01 import company, exxpense
 
 company_name = input("Please input your company name: ")
-income = input("Please input your income: ")
-expense = input("Please input your expense: ")
-account_balance = input("Please input your account balance: ")
+income = float(input("Please input your income: "))
+expense = float(input("Please input your expense: "))
+account_balance = float(input("Please input your account balance: "))
 
 profit = income - expense
 

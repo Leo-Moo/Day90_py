@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="Day1 added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/2_balance_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/3_financial_risk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/4_Debug 训练.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/复盘" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="Day2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Third/day01_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Third/day01_finance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +82,7 @@
       <workItem from="1788915248299" duration="13643000" />
       <workItem from="1789009694061" duration="12288000" />
       <workItem from="1789106052569" duration="1047000" />
-      <workItem from="1789107134747" duration="5003000" />
+      <workItem from="1789107134747" duration="5666000" />
     </task>
     <task id="LOCAL-00001" summary="Day1">
       <option name="closed" value="true" />
@@ -115,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788936966960</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day2">
+      <option name="closed" value="true" />
+      <created>1789112513574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789112513574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day1" />
     <MESSAGE value="Day1 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day1 added" />
+    <MESSAGE value="Day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day90_py$2_.coverage" NAME="2.简单财务数据分析 覆盖结果" MODIFIED="1788856838567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
