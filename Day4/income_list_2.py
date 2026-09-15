@@ -34,6 +34,7 @@ max_income,normal_income , total_income= 0, 0, 0
 for i in range(today_income):
     income = float(input(f"请输入第{i+1}笔收入："))
     income_list.append(income)
+for income in income_list:
     if income >= 10000:
         max_income += 1
     elif income < 10000:
