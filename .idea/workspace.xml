@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4410bee4-92c5-4c9f-9992-32fe1d44c62c" name="更改" comment="day 3">
+      <change afterPath="$PROJECT_DIR$/Day4/First.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/account_clean_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/income_list_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/string_clean_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/复盘" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day4/字符串_列表" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3/balance_batch_check_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/balance_batch_check_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3/income_analysis_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/income_analysis_2.py" afterDir="false" />
@@ -39,19 +45,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python 测试.Python 测试 (test_3_financial_risk.py 内).executor": "Run",
+    "Python.1.executor": "Run",
     "Python.2.简单财务数据分析.executor": "Run",
     "Python.2_balance_check.executor": "Run",
     "Python.3.业务小需求.executor": "Run",
     "Python.4.Debug 小实验.executor": "Run",
     "Python.4_Debug 训练.executor": "Run",
+    "Python.account_clean_3.executor": "Run",
     "Python.balance_batch_check_3.executor": "Run",
     "Python.circle_1.executor": "Run",
     "Python.day01.executor": "Run",
     "Python.day01_finance.executor": "Run",
     "Python.day1.executor": "Run",
     "Python.income_analysis_2.executor": "Run",
+    "Python.income_list_2.executor": "Run",
     "Python.income_total_1.executor": "Run",
     "Python.profit_analysis.executor": "Run",
+    "Python.string_clean_1.executor": "Run",
     "Python.员工工资计算.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -64,7 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +101,11 @@
       <workItem from="1789009694061" duration="12288000" />
       <workItem from="1789106052569" duration="1047000" />
       <workItem from="1789107134747" duration="8436000" />
-      <workItem from="1789349865354" duration="14535000" />
+      <workItem from="1789349865354" duration="15218000" />
+      <workItem from="1789433414369" duration="7485000" />
+      <workItem from="1789441545781" duration="2400000" />
+      <workItem from="1789445009564" duration="10020000" />
+      <workItem from="1789459208115" duration="3323000" />
     </task>
     <task id="LOCAL-00001" summary="Day1">
       <option name="closed" value="true" />
@@ -149,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789376855296</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 3">
+      <option name="closed" value="true" />
+      <created>1789379436731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789379436731</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,16 +189,20 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day90_py$.coverage" NAME=" 覆盖结果" MODIFIED="1789115619010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Day90_py$day01.coverage" NAME="day01 覆盖结果" MODIFIED="1789107101530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Second" />
+    <SUITE FILE_PATH="coverage/Day90_py$account_clean_3.coverage" NAME="account_clean_3 覆盖结果" MODIFIED="1789463124632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
+    <SUITE FILE_PATH="coverage/Day90_py$string_clean_1.coverage" NAME="string_clean_1 覆盖结果" MODIFIED="1789454360674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/Day90_py$4_Debug_.coverage" NAME="4_Debug 训练 覆盖结果" MODIFIED="1789111912845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
     <SUITE FILE_PATH="coverage/Day90_py$day1.coverage" NAME="day1 覆盖结果" MODIFIED="1788853167096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/First" />
     <SUITE FILE_PATH="coverage/Day90_py$2_balance_check.coverage" NAME="2_balance_check 覆盖结果" MODIFIED="1789109105117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
     <SUITE FILE_PATH="coverage/Day90_py$balance_batch_check_3.coverage" NAME="balance_batch_check_3 覆盖结果" MODIFIED="1789376816486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
+    <SUITE FILE_PATH="coverage/Day90_py$income_list_2.coverage" NAME="income_list_2 覆盖结果" MODIFIED="1789458377378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/Day90_py$income_total_1.coverage" NAME="income_total_1 覆盖结果" MODIFIED="1789366560884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/Day90_py$profit_analysis.coverage" NAME="profit_analysis 覆盖结果" MODIFIED="1789108062164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day2" />
     <SUITE FILE_PATH="coverage/Day90_py$2_.coverage" NAME="2.简单财务数据分析 覆盖结果" MODIFIED="1788856838567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
     <SUITE FILE_PATH="coverage/Day90_py$circle_1.coverage" NAME="circle_1 覆盖结果" MODIFIED="1789365093457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/Day90_py$income_analysis_2.coverage" NAME="income_analysis_2 覆盖结果" MODIFIED="1789367678424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
     <SUITE FILE_PATH="coverage/Day90_py$3_.coverage" NAME="3.业务小需求 覆盖结果" MODIFIED="1788857223957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
+    <SUITE FILE_PATH="coverage/Day90_py$1.coverage" NAME="1 覆盖结果" MODIFIED="1789442094273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day4" />
     <SUITE FILE_PATH="coverage/Day90_py$day01_finance.coverage" NAME="day01_finance 覆盖结果" MODIFIED="1788936277030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1/Third" />
   </component>
 </project>

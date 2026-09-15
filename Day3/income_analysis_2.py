@@ -36,11 +36,11 @@ total_income = 0
 max_income, min_income = 0, 0
 today_income = int(input("今天有多少笔收入？\n"))
 for i in range(today_income):
-    signle_income = float(input(f"请输入{i+1}笔收入："))
-    total_income += signle_income
-    if signle_income >= 10000:
+    single_income = float(input(f"请输入{i+1}笔收入："))
+    total_income += single_income
+    if single_income >= 10000:
         max_income += 1
-    elif signle_income < 10000:
+    elif single_income < 10000:
         min_income += 1
 print(f"总收入：{total_income:.2f}")
 print(f"大额收入笔数：{max_income}")

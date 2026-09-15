@@ -32,4 +32,18 @@ for i in range(1,6):
 print(f"收入总额：{total_income:.2f}")
 #But I don't understand why can't input continuously
 
-
+# 解决办法：
+# account = "银行存款"
+#
+# 问题是：
+# account = "银行存款"
+# account = "库存现金"
+# account = "应收账款"
+#
+# 最后 account 里面只剩：
+# 应收账款
+# 因为前面的值被覆盖了。
+#
+# 但如果我希望：
+# 一次保存很多个科目怎么办？
+# 这时候就需要列表。

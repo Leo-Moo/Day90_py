@@ -55,7 +55,7 @@ print(f"异常：{unusual_balance}")
 print(f"异常科目占比：{Abnormal_balance_proportion:.2f}%")
 
 # count = 1
-#
+#curl.exe -I https://github.com
 # while count <= 5:
 #     print(count)
 
