@@ -1,0 +1,264 @@
+第一部分｜列表进阶：20 分钟
+
+你已经会：
+
+accounts = []
+
+accounts.append("银行存款")
+
+今天再补几个以后经常用的方法。
+
+1. in：判断数据是否存在
+accounts = ["银行存款", "库存现金", "应收账款"]
+
+print("银行存款" in accounts)
+
+结果：
+
+True
+
+因此可以：
+
+if "银行存款" in accounts:
+    print("找到了")
+
+真实场景就是检查：
+
+某个科目是否已经存在。
+
+2. remove()：按值删除
+accounts = ["银行存款", "库存现金", "应收账款"]
+
+accounts.remove("库存现金")
+
+print(accounts)
+
+结果：
+
+["银行存款", "应收账款"]
+
+注意：删除不存在的数据可能报错。
+
+所以以后更稳妥的思路是：
+
+if 某数据 in 列表:
+    再删除
+3. pop()：按位置取出并删除
+accounts = ["银行存款", "库存现金", "应收账款"]
+
+account = accounts.pop(1)
+
+print(account)
+print(accounts)
+
+观察这两个输出有什么区别。
+
+重点理解：
+
+remove()
+→ 根据“值”删除
+
+pop()
+→ 根据“位置”删除，而且会返回被删除的数据
+
+今天知道即可，不需要背大量列表方法。
+
+第二部分｜元组 tuple：10～15 分钟
+
+列表：
+
+account = ["银行存款", 15000]
+
+可以修改：
+
+account[1] = 20000
+
+而元组：
+
+account = ("银行存款", 15000)
+
+使用圆括号。
+
+你仍然可以：
+
+print(account[0])
+print(account[1])
+
+但不能随意：
+
+account[1] = 20000
+
+你自己运行一次，观察 Python 报什么错误。
+
+今天对元组只要求理解：
+
+有序，但是创建后通常不能修改。
+
+暂时不用深挖。
+
+例如固定坐标、固定配置、不会改变的一组数据，以后可能用元组。
+
+第三部分｜今天真正的重点：字典 dict
+
+先看昨天的问题。
+
+假设：
+
+account = ["银行存款", 15000, "正常"]
+
+现在我要余额。
+
+你只能：
+
+account[1]
+
+问题来了：
+
+1 到底代表什么？
+
+代码一长，很难看懂。
+
+字典可以写成：
+
+account = {
+    "name": "银行存款",
+    "balance": 15000,
+    "status": "正常"
+}
+
+现在：
+
+print(account["name"])
+
+得到：
+
+银行存款
+print(account["balance"])
+
+得到：
+
+15000
+
+这就开始接近真正的数据结构了。
+
+字典的核心：key → value
+
+例如：
+
+account = {
+    "name": "银行存款",
+    "balance": 15000,
+    "status": "正常"
+}
+
+可以理解成：
+
+key             value
+
+name       →    银行存款
+balance    →    15000
+status     →    正常
+
+所以字典不是主要依靠：
+
+0
+1
+2
+
+找数据。
+
+而是通过具有含义的 key 找数据。
+
+读取字典
+print(account["name"])
+print(account["balance"])
+print(account["status"])
+修改字典
+account["balance"] = 20000
+
+然后：
+
+print(account)
+
+观察余额是否改变。
+
+添加新字段
+
+一开始：
+
+account = {
+    "name": "银行存款",
+    "balance": 15000
+}
+
+后来想加入：
+
+status
+
+可以：
+
+account["status"] = "正常"
+
+这和列表的 append() 思维不一样。
+
+列表：
+
+accounts.append(...)
+
+是添加一个元素。
+
+字典：
+
+account["status"] = "正常"
+
+是在增加一个字段及对应值。
+
+第四部分｜列表 + 字典：这是今天真正要打通的地方
+
+一个字典：
+
+account = {
+    "name": "银行存款",
+    "balance": 15000
+}
+
+表示：
+
+一条科目记录。
+
+那 3 条记录怎么办？
+
+你昨天已经学过列表。
+
+所以可以：
+
+accounts = []
+
+然后：
+
+account1 = {
+    "name": "银行存款",
+    "balance": 15000
+}
+
+account2 = {
+    "name": "应收账款",
+    "balance": -2300
+}
+
+accounts.append(account1)
+accounts.append(account2)
+
+最终结构：
+
+accounts
+│
+├── {"name": "银行存款", "balance": 15000}
+│
+└── {"name": "应收账款", "balance": -2300}
+
+这就是：
+
+列表里面放字典。
+
+以后 pandas、Excel、API、JSON、数据库都会大量遇到类似结构。
