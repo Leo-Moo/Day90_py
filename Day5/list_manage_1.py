@@ -23,17 +23,19 @@ find_subject_name = input("Please input you want to find the subject name:")
 find_subject_name = find_subject_name.strip()
 if find_subject_name in accounts:
     print(f"{find_subject_name}存在")
-while True:
-    choice = input("Do you want to delete it? Y or N:")
-    choice = choice.strip()
-    choice = choice.upper()
-    if choice == "Y":
-        accounts.remove(find_subject_name)
-        break
-    elif choice == "N":
-        print("取消删除")
-        break
-    else:
-        print("输入错误，请重新输入！")
+    while True:
+        choice = input("Do you want to delete it? Y or N:")
+        choice = choice.strip()
+        choice = choice.upper()
+        if choice == "Y":
+            accounts.remove(find_subject_name)
+            break
+        elif choice == "N":
+            print("取消删除")
+            break
+        else:
+            print("输入错误，请重新输入！")
+else:
+    print(f"{find_subject_name}不存在，无法删除")
 print(f"当前列表为：{accounts}")
 print(f"当前列表元素数量为{len(accounts)}个")
